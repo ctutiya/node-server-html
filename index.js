@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
 
 server.listen(port, (error) => {
     if (error) {
-      return console.log('Error occured :', error )
+      return console.log('Error occured:', error )
     }
 
     console.log(`Server running at http://localhost:${port}/`)
